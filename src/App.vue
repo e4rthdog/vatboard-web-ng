@@ -1,8 +1,9 @@
 <template>
-    <TopNavbar />
-    <h1 class="text-3xl font-bold underline text-center">Welcome</h1>
+    <topNavbar />
+    <mainContent />
 </template>
 
 <script setup>
-import TopNavbar from './components/top-navbar.vue'
+import topNavbar from './components/top-navbar.vue'
+import mainContent from './components/main-content.vue'
 </script>
